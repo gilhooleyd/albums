@@ -57,7 +57,7 @@ label: ABC
 Fronted by Chaka Khan, one of soul music's most combustible singers, Rufus built its mid-Seventies sound on heavy-footed, guitar-slathered funk. But after spending 16 months in the studio working on Ask Rufus, they came out with a record that gave their songs more room to breathe, anticipating the lithe, loose arrangements of Nineties neo-soul. Khan glided through the head-nodding "Everlasting Love" and the twisty-turny "Better Days," and fans appreciated the adjustment: Ask Rufus was the group's first platinum record.
 
 # 498:  'Suicide'
-genre: Synth Punk
+genre: Punk
 artist: Suicide
 year:  1977
 label: Red Star
@@ -127,7 +127,7 @@ label: ABKCO
 When the Righteous Brothers' Bobby Hatfield first heard "You've Lost That Lovin' Feelin'," with partner Bill Medley's extended solo, he asked, "But what do I do while he's singing the whole first verse?" Producer Phil Spector replied, "You can go directly to the bank!" Spector built his Wall of Sound out of hand claps, massive overdubs, and orchestras of percussion. This box has hits such as the Ronettes' "Be My Baby" and the Crystals' "Da Doo Ron Ron," which Spector called "little symphonies for the kids."
 
 # 488:  'The Stooges'
-genre: Proto-Punk
+genre: Punk
 artist: The Stooges
 year:  1969
 label: Elektra
@@ -141,7 +141,7 @@ label: SST
 MCA refused to release this album, denouncing it as "immoral" and "anti-parent." High praise, but Black Flag lived up to it, defining L.A. hardcore punk with Greg Ginn's violent guitar and the pissed-off scream of Henry Rollins, especially on "TV Party" and "Rise Above," which came with the timeless smash-the-glass salvo "We are tired of your abuse/Try to stop is but it's no use." Punks still listen to Damaged, and parents still hate it.
 
 # 486:  'Continuum'
-genre: Pop Rock
+genre: Pop
 artist: John Mayer
 year:  2006
 label: Columbia
@@ -197,7 +197,7 @@ label: EMA Latin
 Tejana star Selena Quintanilla-Pérez may not have been long for this world (she died when she was just 23), but she remains one of America's most beloved singer-songwriters. At the heart of her regional Mexican masterwork, Amor Prohibido, is a universal, glittering pop core. The techno-cumbia title track tells the real-life story of her grandparents, who fell in love across class lines. It's a Latina fairy tale, if ever there was one. Amor Prohibido, meaning "forbidden love," became one of the bestselling Latin albums of all time.
 
 # 478:  'Something Else by the Kinks'
-genre: Pop Rock
+genre: Pop
 artist: The Kinks
 year:  1968
 label: Pye
@@ -274,7 +274,7 @@ label: Rolling Stones
 Why did the Stones call their big comeback album Some Girls? Keith explained, "Because we couldn't remember their fucking names." The Stones sounded revitalized on Some Girls, with Mick at his bitchiest, reveling in the NYC sleaze of "Shattered," "Beast of Burden," and the disco hit "Miss You." It became their all-time biggest seller. Keith was in rough shape at the time — as Mick fumed, "Christ, Keith fuckin' gets busted every year" — but he stands unrepentant in his outlaw theme song, "Before They Make Me Run."
 
 # 467:  'BLACKsummers'night'
-genre: Neo-Soul
+genre: Soul
 artist: Maxwell
 year:  2009
 label: Columbia
@@ -392,7 +392,7 @@ label: Atlantic
 At the peak of psychedelic soul music, Roberta Flack debuted with a classy quietude and thoughtful grace, recording with jazz musicians and complex horn and string arrangements. Her record was widely admired, but it didn't become popular until three years later, after her pained version of Ewan MacColl's 1950s folk ballad, "The First Time Ever I Saw Your Face," scored a love scene in Clint Eastwood's movie Play Misty for Me, and the song spent six weeks atop the Billboard Hot 100 chart.
 
 # 450:  'Ram'
-genre: Pop Rock
+genre: Pop
 artist: Paul and Linda McCartney
 year:  1971
 label: Apple
@@ -616,7 +616,7 @@ label: EMI Nashville
 Eric Church emerged in the mid-2000s as one of country music's best new singer-songwriters, and his third album rolled all of his gifts into a tight package that was rock-influenced, rough around the edges, and catchy as hell. "Hungover & Hard Up" shows the North Carolina native's abiding gift for drowning his sorrows in booze and melody, and on the classic "Springsteen," he invokes Bruce's music as a way to access the passion of youth. The songwriting is so confident, even the ballads swagger a bit.
 
 # 418:  'Brothers in Arms'
-genre: Pop Rock
+genre: Pop
 artist: Dire Straits
 year:  1985
 label: Warner Bros.
@@ -742,7 +742,7 @@ label: Private Stock
 "We're gonna shoot the tube!" Debbie Harry promises on "In the Sun," hanging 10 on the Bowery. Blondie had a hard time getting taken seriously in the CBGB punk scene. But while the band's debut celebrates Sixties rock & roll at its campiest — girl groups, garage trash, surf bubblegum — Harry's heart-on-sleeve swoon during "In the Flesh " sincerely updated the Shangri-Las for the Lower East Side circa 1977, and the gritty "Rip Her to Shreds" showed Blondie could get down with the tough guys, too.
 
 # 400:  'Beauty and the Beat'
-genre: New Wave
+genre: Rock
 artist: The Go-Go's
 year:  1981
 label: I.R.S.
@@ -756,7 +756,7 @@ label: Nonesuch
 This album lived in myth for decades. Brian Wilson's unfinished response to Sgt. Pepper's Lonely Hearts Club took nearly 40 years to finally come to fruition. Longtime Wilson collaborator Van Dyke Parks helped him realize his vision, with lush string arrangements, sublime melodies, and vocal harmonies, all impeccably constructed. Close your eyes and you can imagine how it might've changed the world in 1968, but with Wilson's influence still all over scads of indie bands in 2004, it sounds and feels majestically modern.
 
 # 398:  'The Raincoats'
-genre: Post-Punk
+genre: Punk
 artist: The Raincoats
 year:  1979
 label: Rough Trade
@@ -777,7 +777,7 @@ label: Bearsville
 "I'm probably the whitest singer in the world," Todd Rundgren told Rolling Stone in 1972. "I have no 'soul' in the usual sense — but I can do this great feminine falsetto." On this tour de force double album, Rundgren employs that falsetto on two great singles ("I Saw the Light" and "Hello It's Me"). For the rest of the album, he demonstrates his complete command of the studio, playing almost all the instruments himself, experimenting with a kaleidoscope of rock genres, and even delivering a monologue on what poorly made records sound like.
 
 # 395:  'Black Messiah'
-genre: Neo-Soul
+genre: Soul
 artist: D'Angelo and the Vanguard
 year:  2014
 label: RCA
@@ -853,7 +853,7 @@ label: Sire
 The Ramones wrote their third album on tour, as they took the gospel of three chords and ripped denim beyond New York's five boroughs. Rocket to Russia was also their first true studio triumph: an exuberant, polished bottling of the CBGB-stage napalm of Ramones and Leave Home. The razor-slashing hooks bring out the Top 40 classicism in "Rockaway Beach" and "Sheena Is a Punk Rocker," plus the lonely-boy poignancy of Joey Ramone's vocals in "I Don't Care" and "I Wanna Be Well."
 
 # 384:  'The Kinks Are the Village Green Preservation Society'
-genre: Pop Rock
+genre: Pop
 artist: The Kinks
 year:  1969
 label: Reprise
@@ -978,7 +978,7 @@ label: Cash Money
 Just when everyone was ready for more pop sensitivity from Drake, he went street. If You're Reading This It's Too Late was a mixtape for his rap base — no radio hits or catchy hooks, just his harshest beats and rhymes. It sums up Drake's willingness to switch lanes at any moment. (Just a few months later, he swerved back into soft-soul territory on "Hotline Bling.") He spends his money and curses his enemies in paranoid bangers like "10 Bands."
 
 # 366:  'Rocks'
-genre: Hard Rock
+genre: Rock
 artist: Aerosmith
 year:  1976
 label: Columbia
@@ -992,7 +992,7 @@ label: Stones Throw
 This collaboration between rapper MF Doom and producer Madlib is one of underground hip-hop's greatest moments. Madlib provides a shifting bed of warped funk and wildly unpredictable samples, drawing on everything from Thunder and Lightning's "Bumpin' Bus Stop" to "The Theme of the Justice League of America." Doom's rhymes are so casually adventurous that sometimes it takes a second to notice how stunning they are: "Still back in the game like Jack LaLanne/Think you know the name, don't rack your brain/On a fast track to half sane" — hell yeah!
 
 # 364:  'More Songs About Buildings and Food'
-genre: New Wave
+genre: Rock
 artist: Talking Heads
 year:  1978
 label: Sire
@@ -1034,7 +1034,7 @@ label: Ardent
 Alex Chilton and his band of Memphis misfits were years ahead of their time — when they released Radio City in 1974, hardly anyone heard it. But like the Velvet Underground, they became hugely influential when future generations discovered them and got their minds blown. Big Star came up with their own skewed pop sound, filtering their love of the Beatles through their Memphis-soul roots. "September Gurls" and "Life Is White" should have been hits, soaring with the sweetly eccentric guitar chime and the romantic ache in Chilton's voice.
 
 # 358:  'Sour'
-genre: Pop Rock
+genre: Pop
 artist: Olivia Rodrigo
 year:  1985
 label: Island
@@ -1069,7 +1069,7 @@ label: Elektra
 Teenage multiracial London girl Poly Styrene had braces on her teeth and wore Day-Glo rags, screeching anthems like "Oh Bondage! Up Yours!" over saxophone blasts, and chanting, "I am a poseur and I don't care! I like to make people stare!" X-Ray Spex's explosive punk-rock debut went criminally unreleased in the U.S., but it became a word-of-mouth cult classic throughout the indie-rock underground in the Eighties and Nineties, influencing Sleater-Kinney, the Beastie Boys, and many others.
 
 # 353:  'The Cars'
-genre: New Wave
+genre: Rock
 artist: The Cars
 year:  1999
 label: Interscope
@@ -1097,7 +1097,7 @@ label: Tamla/Motown
 Recording after his onerous contract with Motown had expired, a newly empowered Stevie Wonder flexed his artistic control on Music of My Mind, making a relaxed, love-smitten warmup for blockbusters — like Innervisions and Songs in the Key of Life — to come, and playing nearly every funky note on classics such as "Love Having You Around" and "Superwoman (Where Were You When I Needed You)." Elsewhere, Wonder jammed on a Clavinet during the the tight boogie "Keep on Running" and on "Evil," an openhearted intimacy with political overtones.
 
 # 349:  'Kick Out the Jams'
-genre: Proto-Punk
+genre: Punk
 artist: MC5
 year:  1969
 label: Elektra
@@ -1250,7 +1250,7 @@ label: XL
 On Halloween 2012, with their hometown New York subsumed in a blackout, Vampire Weekend went on late-night TV to play an atheist reggae jam called "Unbelievers" dressed as skeletons. It was the perfect introduction to Modern Vampires of the City, a record that darkened their buoyant indie pop, as Ezra Koenig sang about moving beyond his post-college years into something scarier and weirder — hitting a cloudy peak with the beautifully worried Dylanesque travelogue "Hannah Hunt."
 
 # 327:  'Live at Leeds'
-genre: Hard Rock
+genre: Rock
 artist: The Who
 year:  1970
 label: Decca
@@ -1278,7 +1278,7 @@ label: Capitol
 In the early 2000s, starry-eyed Brit-pop boys doing a cuddly version of Radiohead were a dime a dozen. (Remember Starsailor?) It was Coldplay's second album that showed they were true contenders. Songs like "Green Eyes" and "The Scientist" brought back the comforting melodies of "Yellow," but the twinkling sonics suggested prime Smiths or U2. And darker stuff, like the austerely beautiful death meditation "Amsterdam" and the OK Computer-worthy "God Put a Smile Upon Your Face," showed the group had more than arena anthems on its mind.
 
 # 323:  'Sandinista!'
-genre: Post-Punk
+genre: Punk
 artist: The Clash
 year:  1980
 label: Epic
@@ -1376,7 +1376,7 @@ label: Harvest
 This first-generation U.K. punk band made sparse tunes that erupted in combustible snippets on its 21-track debut album. America never got it, but Pink Flag — as revolutionary discs tend to do — influenced some important bands, including Sonic Youth and the Minutemen. It also might be one of the most-covered punk LPs ever: Minor Threat did "12XU," R.E.M. did "Strange," the New Bomb Turks did "Mr. Suit," Spoon did "Lowdown," the Lemonheads did "Fragile," and on and on.
 
 # 309:  'Closer'
-genre: Post-Punk
+genre: Punk
 artist: Joy Division
 year:  1980
 label: Factory
@@ -1404,7 +1404,7 @@ label: Hi
 Al Green made one classic after another in the early Seventies — the Memphis soul master turned each LP into an all-out passion play, capturing the highs and lows of romance. After his smash Let's Stay Together, I'm Still in Love With You was his second great album of 1972. It's an even more sensual experience, with the sweat-dripping acoustic groove of "Simply Beautiful" and the vulnerable confessions of "Look What You Done for Me." "We used chords that people never used before," producer Willie Mitchell said. "Al Green always wanted to advance."
 
 # 305:  'Alive!'
-genre: Hard Rock
+genre: Rock
 artist: Kiss
 year:  1975
 label: Casablanca
@@ -1432,7 +1432,7 @@ label: Reprise
 Neil Young made this album as a tribute to two friends who died from drugs, Crazy Horse guitarist Danny Whitten and roadie Bruce Berry. Young sounds like he's on the edge of a breakdown in the mournful ballads "Tired Eyes" and "Speakin' Out," recorded (mostly in one tequila-heavy night) with a loose, heavily emotional sound — "a drunken Irish wake" in the words of Crazy Horse bassist Billy Talbot. Quintessentially Young, it was recorded just a year after his soft-rock hit Harvest. "Everybody was hoping I'd turn into John Denver," Young said. "That didn't happen."
 
 # 301:  'New York Dolls'
-genre: Glam Rock
+genre: Rock
 artist: New York Dolls
 year:  1973
 label: Mercury
@@ -1495,7 +1495,7 @@ label: Elektra
 How did a weird little tune like "Cannonball" make the Top 40? It's an only-in-the-Nineties mystery that may go forever unsolved. On the Breeders' breakthrough LP, Kim Deal made a record every bit as good as her old band, the Pixies, with her sister Kelly on guitar, singing about sex and summer over the surfy buzz of "Divine Hammer" and "I Just Wanna Get Along." The adorable, acoustic "Drivin' on 9" is a wonderful alt-rock take on the age-old rock & roll theme of going to the chapel of love.
 
 # 292:  'Van Halen'
-genre: Hard Rock
+genre: Rock
 artist: Van Halen
 year:  1978
 label: Warner Bros.
@@ -1523,7 +1523,7 @@ label: Elektra
 "I have to re-create the universe every morning when I wake up," Björk said, explaining her second solo album's utter lack of musical inhibition. Post bounces from big-band jazz ("It's Oh So Quiet") to trip-hop ("These Modern Things" seems to be both of those things at once). Lush and disorienting, dissonant yet ensnaringly lovely, it proved the "Icelandic pixie" who'd dazzled MTV viewers fronting the Sugarcubes, was, in fact, one of the Nineties' truly boundless musical thinkers. Fun fact: For her vocals, Björk extended her mic cord to a beach so she could sing to the sea.
 
 # 288:  'The Modern Lovers'
-genre: Proto-Punk
+genre: Punk
 artist: The Modern Lovers
 year:  1976
 label: Beserkley
@@ -1572,7 +1572,7 @@ label: Capitol
 In the Wee Small Hours, the first collection of songs Frank Sinatra recorded specifically for an LP, sustains a midnight mood of loneliness and lost love — it's a prototypical concept album. From the title track, brought in on the bell tones of a celesta, through a trenchant recast of "This Love of Mine," a hit from his Tommy Dorsey days, Sinatra — reeling from his breakup with Ava Gardner — is never less than superb.
 
 # 281:  'Nilsson Schmilsson'
-genre: Pop Rock
+genre: Pop
 artist: Harry Nilsson
 year:  1971
 label: RCA
@@ -1593,7 +1593,7 @@ label: Geffen
 Nirvana shine brightly on this live set because the volume is just low enough to let Kurt Cobain's tortured tenderness glow. The powerful, reverent covers of Lead Belly, David Bowie, the Vaselines, and Meat Puppets songs sum up Nirvana as a haunted, theatrical, and, ultimately, truly raw band. Though Cobain was going through heroin withdrawal the morning of the taping, it remains one of three Unplugged performances to be recorded without having to pause for any retakes.
 
 # 278:  'Houses of the Holy'
-genre: Hard Rock
+genre: Rock
 artist: Led Zeppelin
 year:  1973
 label: Atlantic
@@ -1628,7 +1628,7 @@ label: Columbia
 On release, this bold experiment in Nashville classicism was shunned by rock fans and country purists alike. But the American rural song had been central to the Byrds' folk-rock sound; here, driven by junior Byrd Gram Parsons, the band highlighted that connection, dressing Bob Dylan and Merle Haggard songs in steel guitar and rock & roll drive, setting the stage for country rock. Parsons left signs of his short, glorious future in his originals "Hickory Wind" and "One Hundred Years From Now."
 
 # 273:  'Entertainment!'
-genre: Post-Punk
+genre: Punk
 artist: Gang of Four
 year:  1979
 label: Warner Bros.
@@ -1677,7 +1677,7 @@ label: SST
 "Our band could be your life," sing the Minutemen on "History Lesson – Part 2," and never did a lyric better articulate punk's everyman aesthetic. Guitarist D. Boon and bassist Mike Watt push each other to fast, funny, and agitated heights; they sing about everything from Vietnam to Michael Jackson, and cover CCR and Steely Dan, expanding their magnum opus double LP out to 46 songs. Sadly, Boon would die a year later in a van accident.
 
 # 266:  'Help!'
-genre: Pop Rock
+genre: Pop
 artist: The Beatles
 year:  1965
 label: Capitol
@@ -1698,7 +1698,7 @@ label: Columbia
 For the follow-up to Dark Side of the Moon, Pink Floyd got even darker, exploring their main themes of lunacy and alienation. The poignant title ballad is a lament for their ex-bandmate Syd Barrett, one of the Sixties' saddest acid casualties. They pay tribute in "Shine On You Crazy Diamond," a 26-minute, nine-part suite that both opens and closes the album, with David Gilmour's elegiac guitar. They also skewer the music business in "Have a Cigar" and "Welcome to the Machine."
 
 # 263:  'Hard Day's Night'
-genre: Pop Rock
+genre: Pop
 artist: The Beatles
 year:  1964
 label: United Artists
@@ -1782,7 +1782,7 @@ label: Warner Bros.
 They came from Akron, Ohio, wore matching jumpsuits, and had a sinister theory of devolution. Their debut album runs on rubber-punk energy and mechanized New Wave beats, with a robotic, soul-chilling version of the Stones' "(I Can't Get No) Satisfaction," demented highlights like the troublingly catchy "Mongoloid," and the Chuck Berry parody "Come Back Jonee." Devo never got slowed down by their concept; "Gut Feeling/(Slap Your Mammy)" is warped Midwestern guitar mania at its finest.
 
 # 251:  'Honky Château'
-genre: Pop Rock
+genre: Pop
 artist: Elton John
 year:  1972
 label: Uni
@@ -1845,7 +1845,7 @@ label: Date
 The Zombies broke up two weeks after they completed Odessey and Oracle, in December 1967, and the album wasn't released in the U.S. until 1969. But its baroque psychedelic-pop arrangements continue to exert a powerful influence, particularly on whimsy-loving indie rockers. Recorded in London at both Abbey Road and a Stones haunt, Olympic Studios, Odessey combined the adventure of Sgt. Pepper with the concision of British Invasion pop. And "Time of the Season" went on to become a Number Three hit.
 
 # 242:  'Loaded'
-genre: Proto-Punk
+genre: Punk
 artist: The Velvet Underground
 year:  1970
 label: Cotillion
@@ -1978,7 +1978,7 @@ label: Monument
 Before their criticism of George W. Bush made them Nashville exiles and before they established their legacy as country's most righteous troublemakers, the Chicks were effortlessly ruffling feathers on their infectious, poppy fifth album, Fly. "Cowboy Take Me Away," "Ready to Run," and "Goodbye Earl" became defining country hits of the late Nineties, but the rest of the record was hardly filler, from the intense balladry of "Cold Day in July" to the thrash-metal-with-fiddles freakout of "Sin Wagon."
 
 # 223:  'Imagine'
-genre: Pop Rock
+genre: Pop
 artist: John Lennon
 year:  1971
 label: Apple
@@ -1992,7 +1992,7 @@ label: Maverick
 For her first post-motherhood disc, Madonna and producer William Orbit showed the world that electronica didn't have to be cold. Songs like the title track and "Nothing Really Matters" are beat-driven but restrained — filled with warmth and wonder. Ray also features Madonna's best singing ever. "A ray of light to me is hope," she said, describing her inspiration in making the album. "We are zooming forward, but that doesn't mean you can lose touch with the spiritual side of things."
 
 # 221:  'Rage Against the Machine'
-genre: Rap Metal
+genre: Rock
 artist: Rage Against the Machine
 year:  1992
 label: Epic
@@ -2062,7 +2062,7 @@ label: Philips
 Aretha was the Queen of Soul, but Nina Simone, as one of her album titles proclaimed, was its high priestess, and this 1966 LP is among her most enthralling and eclectic. With her dusky voice at its most commanding, Simone works her way through roadhouse soul ("I Love Your Lovin' Ways") and dramatic set pieces (the melancholic "Lilac Wine," later covered by Jeff Buckley). It peaks with "Four Women," an ambitious saga of racially diverse women and their struggles, written by Simone.
 
 # 211:  'Unknown Pleasures'
-genre: Post-Punk
+genre: Punk
 artist: Joy Divison
 year:  1980
 label: Factory
@@ -2153,14 +2153,14 @@ label: Matador
 Pavement were the quintessential American independent rock band, and this is the quintessential indie-rock album. The playing is loose-limbed, the production laid-back and primitive, the lyrics quirky and playful, the melodies sweet and seductive. But the sound is as intense as the white noise of the Velvet Underground, even as songs like "Summer Babe" reflect singer-guitarist Stephen Malkmus' love of Seventies AM pop. Slanted and Enchanted is one of the most influential rock albums of the 1990s; its fuzzy recording style can be heard in the music of Nirvana, Liz Phair, Beck, the Strokes, and the White Stripes.
 
 # 198:  'The B-52's'
-genre: New Wave
+genre: Rock
 artist: The B-52's
 year:  1979
 label: Warner Bros.
 The debut by the B-52's sounds like a bunch of high school friends cramming all their running jokes, goofy sounds, and private nicknames into a New Wave record. "We never thought it would get past our circle of friends in Athens [Georgia]," vocalist Fred Schneider told Rolling Stone. It turned out that nobody could resist the band's campy, arty funk, or the eccentric squeals and bouffant hairdos of Kate Pierson and Cindy Wilson. (Playing organ, Pierson also defined the band's sound.) They played toy instruments, and their thrift-store image was as inventive and colorful as their music — which, with "Rock Lobster," was pretty inventive and colorful.
 
 # 197:  'Meet the Beatles!'
-genre: Pop Rock
+genre: Pop
 artist: The Beatles
 year:  1964
 label: Capitol
@@ -2223,7 +2223,7 @@ label: Kill Rock Stars
 "I wanna be your Joey Ramone," Corin Tucker promised on Sleater-Kinney's 1996 album, Call the Doctor. Their next record made good on that mythic ambition. When drummer Janet Weiss joined singer-guitarists Tucker and Carrie Brownstein, a riot-grrrl force of nature became one of the world's most potent rock bands. Tucker's indelible vibrato takes off with avenging-angel ferocity on songs like the almost impossibly explosive title track and "Words and Guitar," an awe-inspiring statement of rock & roll's power to transform a broken world.
 
 # 188:  'Electric Warrior'
-genre: Glam Rock
+genre: Rock
 artist: T. Rex
 year:  1971
 label: Reprise
@@ -2258,7 +2258,7 @@ label: Portrait
 With her garish thrift-store fashions and exaggerated Queens accent, Lauper had a kooky image that was perfect for MTV. But she also had a superb, clarion voice and a pack of great covers, including "Money Changes Everything" (originally by Atlanta New Wave band the Brains) and Prince's saucy "When You Were Mine." Lauper co-wrote four songs, including the lovely ballad "Time After Time" and the masturbation call-to-arms "She Bop." But her smartest move was to change the lyrics of Robert Hazard's "Girls Just Want to Have Fun" until it became a "very blatantly feminist" song about equality. "For a minute, I made it popular to be the odd guy out," she said.
 
 # 183:  'Brown Sugar'
-genre: Neo-Soul
+genre: Soul
 artist: D'Angelo
 year:  1995
 label: EMI
@@ -2356,7 +2356,7 @@ label: Republic
 Swift spent the Covid lockdown making her masterpiece eighth album, a radical detour into autumnal folk intimacy abetted by ace collaborators like the National's Aaron Dessner and her longtime co-writer Jack Antanoff. The stripped down sound cleared space for some of her most vivid melodies and richest lyrics. Songs like "Mirrorball" and "This Is Me Trying" were meditations on celebrity with universal scope,  "Betty" leveraged an image of high school drama into a moment of sublime empathy, and "August" was a stunningly beautiful evocation of a fading romance. "It's an album that allows you to feel your feelings," she said. In the numb summer of 2020, that was just what the world needed.     
 
 # 169:  'The Stranger'
-genre: Pop Rock
+genre: Pop
 artist: Billy Joel
 year:  1977
 label: Columbia
@@ -2426,14 +2426,14 @@ label: Epic
 More than any of the Northwest bands that preceded them, Pearl Jam turned grunge into rock's dominant new sound. Their first album includes stories about homelessness ("Even Flow"), murder ("Once"), execution ("Footsteps"), incest ("Alive"), psychiatric hospitals ("Why Go"), and romantic disappointment ("Black"). Most notoriously, "Jeremy" told the story of a high school kid who takes revenge on his bullies by killing himself in class — though the lyrics don't make that clear, the accompanying video did. Pearl Jam committed themselves to songs of darkness and trouble, especially in adolescent life, and Eddie Vedder delivers them with conviction, in a voice that makes you feel like the events are happening right now, in front of you.
 
 # 159:  'Synchronicity'
-genre: New Wave
+genre: Rock
 artist: The Police
 year:  1983
 label: A&M
 "I do my best work when I'm in pain and turmoil," Sting told Rolling Stone. And indeed, the dissolution of his first marriage produced some of his best work, including "King of Pain" and the stalker's anthem "Every Breath You Take." There was pain and turmoil in the band, too — it would be the Police's last album. But it became one of the Eighties' biggest pop-rock blockbusters, perhaps the finest example of Sting's unique gift for distilling complex psychological and romantic dramas, which still ruled radio and MTV, while making proggy musicianship and dense composition palatable to the mall-rat masses.
 
 # 158:  'Mama's Gun'
-genre: Neo-Soul
+genre: Soul
 artist: Erykah Badu
 year:  2000
 label: Motown
@@ -2475,7 +2475,7 @@ label: Island
 "I very much wanted to write songs that shocked," Polly Jean Harvey said years after releasing her second album. The shock came partly from her lyrics, which were often proclamations of sexual compulsion, and also from the intense dynamic shifts in her music, which careen from blues to goth, often in the space of one song. Harvey was under the influence of Howlin' Wolf, Tom Waits, and Flannery O'Connor, and her singing, writing, and lead-guitar playing coalesce into something marked by flames. The lyrics have lots of licking, moaning, bleeding, stroking, open mouths, and dismembered body parts. The songs spew viscera as they build to a sticky ecstasy.
 
 # 152:  'Pretenders'
-genre: New Wave
+genre: Rock
 artist: The Pretenders
 year:  1980
 label: Sire
@@ -2517,7 +2517,7 @@ label: Columbia
 In an era when love was an unpopular song topic, Buckley was a swooning romantic. He was the son of the late 1960s cult singer Tim Buckley, but identified himself as "rootless trailer-trash born in Southern California." On extended slow-burning ballads like "Lover, You Should've Come Over" and his cover of "Hallelujah," Buckley used unrestrained amounts of falsetto and vibrato to create an unearthly longing. His music had a smattering of grunge, a plateful of Led Zeppelin III (check the fierce rocker "Eternal Life"), and an opulent sense of tragedy. Grace is the only album Buckley released in his lifetime; he died in 1997 after going for a swim in a Memphis river known for its unpredictable currents.
 
 # 146:  'Parallel Lines'
-genre: New Wave
+genre: Rock
 artist: Blondie
 year:  1978
 label: Chrysalis
@@ -2531,7 +2531,7 @@ label: Interscope
 Chris Rock joked that the world was so crazy, "the best rapper is a white guy," referring to Eminem. He'd been accused of corrupting the nation's youth by fostering misogyny on his major-label debut, and to say he doubled down on playing with offensive ideas only exaggerates his joyful commitment to earning more denunciations. "The Real Slim Shady" and "Bitch Please II" vaulted Eminem from a shock rapper with a sense of humor to the voice of a generation. And in "Stan," he created a verb and a meme to describe extreme fandom in our era.
 
 # 144:  'Physical Graffiti'
-genre: Hard Rock
+genre: Rock
 artist: Led Zeppelin
 year:  1975
 label: Swan Song
@@ -2643,7 +2643,7 @@ label: Columbia
 Pink Floyd's most elaborately theatrical album was inspired by their own success: the alienating enormity of their tours after The Dark Side of the Moon [see No. 55], which was when bassist-lyricist Roger Waters first hit upon a wall as a metaphor for isolation and rebellion. He finished a demo of the work by July 1978; the double album then took the band a year to make. Rock's ultimate self-pity opera, The Wall is also hypnotic in its indulgence: the totalitarian thunder of "In the Flesh?"; the suicidal languor of "Comfortably Numb"; the Brechtian drama of "The Trial." Rock-star hubris has never been more electrifying.
 
 # 128:  'A Night at the Opera'
-genre: Hard Rock
+genre: Rock
 artist: Queen
 year:  1975
 label: Elektra
@@ -2678,7 +2678,7 @@ label: Island
 After fostering a solemn public image for years, U2 loosened up on Achtung Baby, recorded in Berlin with Brian Eno and Daniel Lanois. They no longer sounded like young men sure of the answers; now they were full of doubt and longing. "It's a con, in a way," Bono told Rolling Stone about the album in 1992. "We call it Achtung Baby, grinning up our sleeves in all the photography. But it's probably the heaviest record we've ever made." "One" may be their most gorgeous song, but it's a dark ballad about a relationship in peril and the struggle to keep it together. Yet the emotional turmoil made U2 sound more human than ever.
 
 # 123:  'Led Zeppelin II'
-genre: Hard Rock
+genre: Rock
 artist: Led Zeppelin
 year:  1969
 label: Atlantic
@@ -2692,7 +2692,7 @@ label: Nothing/Interscope
 "When I rented the place, I didn't realize it was that house," claimed NIN's Trent Reznor about recording Spiral in the onetime home of Manson-family victim Sharon Tate. Despite "a million electrical disturbances," Reznor made the most successful album of his career — a cohesive, willful, and overpowering meditation on the central theme running through all of NIN's videos, live shows, music, and lyrics: control. While Spiral has its share of Reznor's trademark industrial corrosiveness, it's balanced by the tentatively hopeful (and intensely personal) "Hurt" and soundscapes inspired by David Bowie's Low.
 
 # 121:  'This Year's Model'
-genre: New Wave
+genre: Rock
 artist: Elvis Costello
 year:  1978
 label: Columbia
@@ -2755,7 +2755,7 @@ label: Sire
 Morrissey's maudlin moanings have never been more acidic or self-aware than on the Smiths' third studio album: "A dreaded sunny day, so let's go where we're happy/And I meet you at the cemetery gates," indeed. Johnny Marr is the sugar to Morrissey's rock salt, and his layered webs of guitar riffs and arpeggios, often in unconventional tunings, build a shifting but stable platform for Morrissey to croon about the drudgery of employment or being cruelly, cruelly shunned by the world. It's mope rock with its eye on grandeur: With "Bigmouth Strikes Again," Marr said, "I was trying to write my 'Jumpin' Jack Flash.'"
 
 # 112:  'Goodbye Yellow Brick Road'
-genre: Pop Rock
+genre: Pop
 artist: Elton John
 year:  1973
 label: MCA
@@ -2776,7 +2776,7 @@ label: Asylum
 Joni Mitchell followed up Blue with the underrated For the Roses, a set of harmonically and lyrically complex songs. Court and Spark is, in comparison, smoother and more straight-ahead; it became the biggest record of her career, hitting Number Two. Working with saxophonist Tom Scott's fusion group, L.A. Express, Mitchell settled into a folk-pop-jazz groove that remains a landmark of breezy sophistication, particularly on the Top 10 single "Help Me." Strange but true: A cover of "Twisted," by the scat-jazz vocal group Lambert, Hendricks, and Ross, closes the album — with stoner comics Cheech and Chong singing backup.
 
 # 109:  'Transformer'
-genre: Glam Rock
+genre: Rock
 artist: Lou Reed
 year:  1972
 label: RCA
@@ -2790,7 +2790,7 @@ label: Epic
 Following the success of her precocious debut, Tidal, and saddled with a pop audience that didn't quite know what to do with her, Fiona Apple took her critics to task on the mature yet daring When the Pawn … Backed by her expressive piano playing and impressionistic production from Jon Brion, Apple makes resentment seem almost fun on songs like "Fast as You Can," "Paper Bag," and "The Way Things Are." In years to come, Apple would make peace with her outcast status, leaving far behind the MTV-generation gatekeepers who once gave her so much grief. For generations of young fans, the raw, hard-won triumph of When the Pawn … will always feel timeless.
 
 # 107:  'Marquee Moon'
-genre: Post-Punk
+genre: Punk
 artist: Television
 year:  1977
 label: Elektra
@@ -2832,7 +2832,7 @@ label: CBS
 "I haven't got any illusions about anything," Joe Strummer said. "Having said that, I still want to try to change things." That youthful ambition bursts through the Clash's debut, a machine-gun blast of songs about unemployment ("Career Opportunities"), race ("White Riot"), and the Clash themselves ("Clash City Rockers"). Most of the guitar was played by Mick Jones, because Strummer considered studio technique insufficiently punk. The American release was delayed two years and replaced some of the U.K. tracks with recent singles, including "Complete Control" — a complaint about exactly those sort of record-company shenanigans.
 
 # 101:  'Led Zeppelin'
-genre: Hard Rock
+genre: Rock
 artist: Led Zeppelin
 year:  1969
 label: Atlantic
@@ -2880,7 +2880,7 @@ label: Cash Money
 The Toronto MC had his creative and commercial breakthrough on Take Care, establishing his image as the Champagne Papi who can always find a way to overshare, whether in the club or the bedroom. Drake covers both seductive R&B finesse and hip-hop swagger, with his longtime producer Noah "40" Shebib, along with guests like Rihanna and Jamie xx. "Marvin's Room" is the showstopper — late at night, Drake drunk-dials his ex to figure out what went wrong ("I've had sex four times this week, I'll explain/I'm having a hard time adjusting to fame"). Hard time or not, Take Care showed that Drake is always best when he bares his feelings in the spotlight.
 
 # 94:  'Fun House'
-genre: Proto-Punk
+genre: Punk
 artist: The Stooges
 year:  1970
 label: Elektra
@@ -2914,14 +2914,14 @@ label: Reprise
 For his third album, Neil Young fired Crazy Horse (the first of many times he would do so), picked up an acoustic guitar, and headed to his basement. He installed recording equipment in the cellar of his Topanga Canyon home, near Los Angeles, leaving room for only three or four people. There, Young made an album of heartbreaking ballads such as "Tell Me Why" and "Don't Let It Bring You Down." The music is gentle, but never smooth. Nils Lofgren, then an 18-year-old hotshot guitarist, squeezed into the sessions — but Young assigned him to the piano, an instrument he had never played in his life.
 
 # 89:  'Baduizm'
-genre: Neo-Soul
+genre: Soul
 artist: Erykah Badu
 year:  1997
 label: Kedar
 "If the head wrap was my trademark, the drums, African drums, were my soundtrack," Erykah Badu recalled. "It's just who I was at the time, and I wanted to be completely who I was when I did what I did." Recorded between New York, Philadelphia, and her hometown of Dallas, the singer's debut suggested a Billie Holiday raised on hip-hop and Stevie Wonder, celebrating herself and her heritage over resplendently relaxed grooves. Baduizm's Seventies-meets-Nineties vibe, Badu's exquisite lyricism ("On & On" is at once spiritual, apocalyptic, and funny), and jazz-steeped cadences (see "Appletree") combined to make the 25-year-old singer a figurehead for the neo-soul genre that essentially began with this album.
 
 # 88:  'Hunky Dory'
-genre: Glam Rock
+genre: Rock
 artist: David Bowie
 year:  1971
 label: RCA
@@ -2949,7 +2949,7 @@ label: Apple
 Also known as the "primal scream" album, referring to the painful therapy that gave rise to its songs, Plastic Ono Band was John Lennon's first proper solo album and rock & roll's most self-revelatory recording. Lennon attacks and denies idols and icons, including his own former band ("I don't believe in Beatles," he sings in "God"), to hit a pure, raw core of confession that, in its echo-drenched, garage-rock crudity, is years ahead of punk. He deals with childhood loss in "Mother" and skirts blasphemy in "Working Class Hero": "You're still fucking peasants as far as I can see." But the unkindest cut came in his frank 1970 Rolling Stone interview. "The Beatles was nothing," Lennon stated acerbically.
 
 # 84:  'Back in Black'
-genre: Hard Rock
+genre: Rock
 artist: AC/DC
 year:  1980
 label: Atlantic
@@ -2998,7 +2998,7 @@ label: RCA
 On July 5th, 1954, at Sun Studios in Memphis, Elvis Presley, guitarist Scotty Moore, and bassist Bill Black were horsing around with "That's All Right," a tune by bluesman Arthur Crudup, when producer Sam Phillips stopped them and asked, "What are you doing?" "We don't know," they said. Phillips told them to "back up and do it again." Bridging black and white, country and blues, Presley's sound was playful and revolutionary, charged by a spontaneity and freedom that changed the world. He released four more singles on Sun — including deﬁnitive reinventions of Wynonie Harris' "Good Rockin' Tonight" and Junior Parker's "Mystery Train" — before moving on to immortality at RCA. They're all here on a collection that serves as well as anything out there as a definitive chronicle of the birth of rock & roll.
 
 # 77:  'Who's Next'
-genre: Hard Rock
+genre: Rock
 artist: The Who
 year:  1971
 label: Decca
@@ -3047,7 +3047,7 @@ label: Parkwood/Columbia
 Renaissance found Beyonce unabashedly celebrating Black pleasure in all its multitudes, illustrating that theme with dozens of sampled voices and sounds, esteemed guests (Grace Jones!), and echoes to global club styles past and present. As is customary for her, she layers the album with enough totems to fuel a million think pieces and dissertations. Yet it's also possible to simply dance and vibe to the music. This is Beyoncé at her joyous peak, and you won't get it unless you pull the "plastic off the sofa," "drop it like a thottie," and enjoy Queen Bey at her thrilling best.
 
 # 70:  'Straight Outta Compton'
-genre: Gangsta Rap
+genre: Hip-Hop
 artist: N.W.A
 year:  1988
 label: Ruthless
@@ -3103,7 +3103,7 @@ label: ABC
 If you were an audiophile in the late Seventies, you owned Aja. Steely Dan's sixth album is easy on the ears, thanks to both its meticulous production and its songs — this was Walter Becker and Donald Fagen's no-holds-barred stab at becoming a huge mainstream jazz-pop success. And sure enough, thanks to sweet, slippery tracks like "Deacon Blues" and "Peg," this collegiate band with a name plucked from a William Burroughs novel and a songbook full of smart, cynical lyrics became bona fide superstars, shooting to the Top Five and selling platinum. And, yes, Aja even won a Grammy for Best Engineered Album.
 
 # 62:  'Appetite for Destruction'
-genre: Hard Rock
+genre: Rock
 artist: Guns N' Roses
 year:  1987
 label: Geffen
@@ -3131,7 +3131,7 @@ label: Tamla/Motown
 "I don't think you know where I'm coming from," Wonder warned Motown executives in 1971. "I don't think you can understand it." Indeed, the two albums Wonder released in 1972 — Music of My Mind and Talking Book — rewrote the rules of the Motown hit factory. Talking Book was full of introspection and social commentary, with Wonder producing, writing, and playing most of the instruments himself. "Superstition" and "You Are the Sunshine of My Life" were Number One singles; "Big Brother" is political consciousness draped in a light melody: "You've killed all our leaders/I don't even have to do nothin' to you/You'll cause your own country to fall."
 
 # 58:  'Led Zeppelin IV'
-genre: Hard Rock
+genre: Rock
 artist: Led Zeppelin
 year:  1971
 label: Atlantic
@@ -3257,14 +3257,14 @@ label: ABKCO
 The record kicks off with the terrifying "Gimme Shelter," the song that came to symbolize not only the catastrophe of the Stones' free show at Altamont but also the death of the utopian spirit of the 1960s. And the entire album burns with apocalyptic cohesion: the sex-mad desperation of "Live With Me"; the murderous blues of "Midnight Rambler"; Keith Richards' lethal, biting guitar on "Monkey Man"; the epic moralism, with honky-tonk piano and massed vocal chorus, of "You Can't Always Get What You Want," which Mick Jagger wrote on acoustic guitar in his bedroom. "Somebody said that we could get the London Bach Choir," Jagger recalled, "and we said, 'That will be a laugh.'"
 
 # 40:  'The Rise and Fall of Ziggy Stardust and the Spiders From Mars'
-genre: Glam Rock
+genre: Rock
 artist: David Bowie 
 year:  1972
 label: RCA
 This album documents one of the most elaborate self-mythologizing schemes in rock, as David Bowie created the glittery, messianic alter ego Ziggy Stardust ("well-hung and snow-white tan"). The glam rock Bowie made with guitarist Mick Ronson is an irresistible blend of sexy, campy pop and blues power, with enduring tracks like "Hang On to Yourself" and "Suffragette City." The anthem "Ziggy Stardust" was one of rock's earliest, and best, power ballads. "I consider myself responsible for a whole new school of pretensions," Bowie said. "They know who they are. Don't you, Elton? Just kidding. No, I'm not."
 
 # 39:  'Remain in Light'
-genre: New Wave
+genre: Rock
 artist: Talking Heads 
 year:  1980
 label: Sire
@@ -3292,7 +3292,7 @@ label: Epic
 "The ballads were what made Off the Wall a Michael Jackson album," Jackson remembered of his big solo splash, which spun off four Top 10 hits and eclipsed the success of the Jackson 5. "I'd done ballads with [my] brothers, but they had never been too enthusiastic about them and did them more as a concession to me than anything else." At the end of "She's Out of My Life," you can hear Jackson actually break down and cry in the studio. But the unstoppable dance tracks on Off the Wall remain classic examples of Jackson as a one-man disco inferno. "Don't Stop 'Til You Get Enough," "Rock With You," and "Burn This Disco Out" still get the party started today.
 
 # 35:  'Rubber Soul'
-genre: Pop Rock
+genre: Pop
 artist: The Beatles 
 year:  1965
 label: Parlophone
@@ -3341,7 +3341,7 @@ label: Apple
 They wrote the songs while on retreat with the Maharishi Mahesh Yogi in India, taking a break from the celebrity grind. As John Lennon later said, "We sat in the mountains eating lousy vegetarian food, and we wrote all these songs." They came back with more great tunes than they could release. Lennon pursued his hard-edged vision in the cynical wit of "Sexy Sadie" and "Happiness Is a Warm Gun," as well as the childlike yearning of "Julia" and "Dear Prudence." Paul McCartney's playful pop energy came through in "Martha My Dear" and his inversion of Chuck Berry's American values, "Back in the U.S.S.R." George Harrison's spiritual yearning led him to "Long, Long, Long" and "While My Guitar Gently Weeps," featuring a guest guitar solo from Eric Clapton. Even Ringo Starr contributes his ﬁrst original, the country-tinged "Don't Pass Me By." The Beatles tried a little of everything, and all their adventures paid off.
 
 # 28:  'Voodoo'
-genre: Neo-Soul
+genre: Soul
 artist: D'Angelo 
 year:  2000
 label: EMI
@@ -3488,7 +3488,7 @@ Revolver wasn't totally without precedent. The Beatles' previous album, Rubber S
 It made sense that the disappointing live shows the band played in the summer of 1966 would be their last. By the time Revolver came out, they'd already entered another world.
 
 # 10:  'The Miseducation of Lauryn Hill'
-genre: Neo-Soul
+genre: Soul
 artist: Lauryn Hill 
 year:  1998
 label: Ruffhouse/Columbia
@@ -3516,7 +3516,7 @@ It's an incredible balance of contradicting impulses — from the pornographic "
 The title track was one of several songs recorded live at his hometown club, First Avenue, in Minneapolis (strings and overdubs were added later in the studio). It was inspired by Bob Seger, of all people — when Prince was touring behind 1999 [see No. 130] in 1983, Seger was playing many of the same markets. Prince didn't understand the Midwestern rocker's appeal, but decided to try a ballad in the Seger mode — the result may be the greatest rock ballad of all time.
 
 # 7:  'Rumours'
-genre: Pop Rock
+genre: Pop
 artist: Fleetwood Mac 
 year:  1977
 label: Warner Bros.
