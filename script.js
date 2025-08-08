@@ -1,4 +1,45 @@
-let data = {};
+
+function shuffle(arr) {
+    let i = arr.length;
+    while(--i > 0){
+        let j = Math.floor(Math.random()*(i+1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function make_opts() {
+    return {
+        filter_reviews: false,
+    };
+};
+
+function make_data() {
+    return {
+        opts: make_opts(),
+        albums: [],
+    }
+};
+
+let data = make_data();
+
+function load_md() {
+    fetch("./albums.md")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.text(); // Get the response body as text
+        })
+        .then(text => {
+            data = parseText(text);
+            updateDOM(data);
+        })
+        .catch(error => {
+            console.error('There was a problem fetching the file:', error);
+            document.getElementById('fileContent').textContent = 'Error loading file.';
+        });
+}
 
 function save() {
     localStorage.setItem("albums", JSON.stringify(data));
@@ -10,19 +51,26 @@ function load() {
     return JSON.parse(str);
 }
 
+function updateDOM(data) {
+    document.body.replaceChildren(dataToHtml(data));
+}
+
 
 function parseText(text) {
     let lines = text.split("\n");
-    let data = []
+    let data = make_data();
     let number = 501;
     let album = {
+        title: "",
+        artist: "",
         text: [],
         number: number,
+        user_review: null,
     };
     for (let line of lines) {
         if (line[0] == "#") {
             if (album.title) {
-                data.push(album);
+                data.albums.push(album);
             }
             number -= 1;
             album = {
@@ -42,14 +90,43 @@ function parseText(text) {
         }
 
     }
-    data.push(album);
-    return data.reverse();
+    data.albums.push(album);
+    data.albums = data.albums.reverse();
+    return data;
 }
 
 function dataToHtml(data) {
     let parent = document.createElement("div");
+
+    let button = document.createElement("button");
+    button.innerText = data.opts.filter_reviews ? "Show Reviewed Albums" : "Hide Reviewed Albums";
+    button.addEventListener('click', () => {
+        data.opts.filter_reviews = !data.opts.filter_reviews;
+        updateDOM(data);
+    });
+    parent.appendChild(button);
+
+    button = document.createElement("button");
+    button.innerText = "Shuffle"
+    button.addEventListener('click', () => {
+        shuffle(data.albums);
+        updateDOM(data);
+    });
+    parent.appendChild(button);
+
+    button = document.createElement("button");
+    button.innerText = "Sort"
+    button.addEventListener('click', () => {
+        data.albums.sort((a, b) => a.number - b.number);
+        updateDOM(data);
+    });
+    parent.appendChild(button);
+
     parent.classList.add("all-albums");
-    for (let album of data) {
+    for (let album of data.albums) {
+        if (data.opts.filter_reviews && album.user_review) {
+            continue;
+        }
         let div = document.createElement("div");
         div.classList.add("album-card");
 
@@ -103,12 +180,9 @@ function dataToHtml(data) {
                 user_review.remove();
             } else {
                 let user_review = createReview((rating) => {
-                    console.log("HI");
                     album.user_review = rating;
-                    console.log(album);
-                    user_review.remove();
-                    user_rating.innerText = album.user_review;
                     save();
+                    updateDOM(data);
                 });
                 div.appendChild(user_review);
             }
@@ -154,9 +228,6 @@ function createReview(callback) {
             updateStarColors(value);
         }
     });
-    stars.addEventListener('mouseout', () => {
-        updateStarColors(stars.dataset.value);
-    });
     stars.addEventListener('click', (event) => {
         const clickedStar = event.target.closest('span[data-value]');
         if (clickedStar) {
@@ -171,21 +242,7 @@ function createReview(callback) {
 
 data = load();
 if (!data) {
-    fetch("./albums.md")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.text(); // Get the response body as text
-        })
-        .then(text => {
-            data = parseText(text);
-            document.body.appendChild(dataToHtml(data));
-        })
-        .catch(error => {
-            console.error('There was a problem fetching the file:', error);
-            document.getElementById('fileContent').textContent = 'Error loading file.';
-        });
+    load_md();
 } else {
     document.body.appendChild(dataToHtml(data));
 }
