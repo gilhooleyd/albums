@@ -11,6 +11,7 @@ function shuffle(arr) {
 function make_opts() {
     return {
         filter_reviews: false,
+        genre: null,
     };
 };
 
@@ -63,6 +64,7 @@ function parseText(text) {
     let album = {
         title: "",
         artist: "",
+        genre: "",
         text: [],
         number: number,
         user_review: null,
@@ -85,6 +87,8 @@ function parseText(text) {
             album.year = line.split(": ")[1];
         } else if (line.startsWith("label:")) {
             album.label = line.split(": ")[1];
+        } else if (line.startsWith("genre:")) {
+            album.genre = line.split(": ")[1];
         } else {
             album.text.push(line);
         }
@@ -106,6 +110,15 @@ function dataToHtml(data) {
     });
     parent.appendChild(button);
 
+    let genre_select = document.createElement("select");
+    genre_select.addEventListener('change', function(event) {
+        console.log(event.target.value);
+        data.opts.genre = event.target.value;
+        updateDOM(data);
+    });
+    let genres = new Set();
+    parent.appendChild(genre_select);
+
     button = document.createElement("button");
     button.innerText = "Shuffle"
     button.addEventListener('click', () => {
@@ -124,7 +137,11 @@ function dataToHtml(data) {
 
     parent.classList.add("all-albums");
     for (let album of data.albums) {
+        genres.add(album.genre);
         if (data.opts.filter_reviews && album.user_review) {
+            continue;
+        }
+        if (data.opts.genre && album.genre != data.opts.genre) {
             continue;
         }
         let div = document.createElement("div");
@@ -139,6 +156,10 @@ function dataToHtml(data) {
         artist.innerText = album.artist;
         artist.classList.add("album-artist");
         div.appendChild(artist);
+
+        let genre = document.createElement("h3");
+        genre.innerText = album.genre;
+        div.appendChild(genre);
 
         let number = document.createElement("div");
         number.innerText = 'No: ' + album.number;
@@ -193,6 +214,12 @@ function dataToHtml(data) {
         div.appendChild(text);
 
         parent.appendChild(div);
+    }
+
+    for (let genre of genres) {
+        var op = new Option();
+        op.text = genre;
+        genre_select.options.add(op);
     }
     return parent;
 }
