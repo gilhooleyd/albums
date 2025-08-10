@@ -56,7 +56,7 @@ function load() {
 }
 
 function updateDOM(data) {
-    document.body.replaceChildren(dataToHtml(data));
+    dataToHtml(data);
 }
 
 
@@ -105,47 +105,7 @@ function parseText(text) {
 }
 
 function dataToHtml(data) {
-    let parent = document.createElement("div");
-
-    let button = document.createElement("button");
-    button.innerText = data.opts.filter_reviews ? "Show Reviewed Albums" : "Hide Reviewed Albums";
-    button.classList.add("inline");
-    button.addEventListener('click', () => {
-        data.opts.filter_reviews = !data.opts.filter_reviews;
-        updateDOM(data);
-    });
-    parent.appendChild(button);
-
-    let genre_select = document.createElement("select");
-    genre_select.classList.add("inline");
-    genre_select.addEventListener('change', function(event) {
-        data.opts.genre = event.target.value;
-        updateDOM(data);
-    });
-    parent.appendChild(genre_select);
-
-    button = document.createElement("button");
-    button.classList.add("inline");
-    button.innerText = "Shuffle"
-    button.addEventListener('click', () => {
-        shuffle(data.albums);
-        updateDOM(data);
-    });
-    parent.appendChild(button);
-
-    button = document.createElement("button");
-    button.classList.add("inline");
-    button.innerText = "Reset"
-    button.addEventListener('click', () => {
-        data.albums.sort((a, b) => a.number - b.number);
-        data.opts = make_opts();
-        updateDOM(data);
-    });
-    parent.appendChild(button);
-
-    let allAlbums = document.createElement("div");
-    allAlbums.classList.add("all-albums");
-    parent.appendChild(allAlbums);
+    let albums = ["div.all-albums"];
     for (let album of data.albums) {
         if (data.opts.filter_reviews && album.user_review) {
             continue;
@@ -153,86 +113,69 @@ function dataToHtml(data) {
         if (data.opts.genre && album.genre != data.opts.genre) {
             continue;
         }
-        let div = document.createElement("div");
-        div.classList.add("album-card");
-
-        let title = document.createElement("h1");
-        title.innerText = album.title;
-        title.classList.add("album-title");
-        div.appendChild(title);
-
-        let artist = document.createElement("h2");
-        artist.innerText = album.artist;
-        artist.classList.add("album-artist");
-        div.appendChild(artist);
-
-        let genre = document.createElement("h3");
-        genre.innerText = album.genre;
-        div.appendChild(genre);
-
-        let number = document.createElement("div");
-        number.innerText = 'No: ' + album.number;
-        div.appendChild(number);
-
-        let text = document.createElement("div");
-        text.innerHTML = album.text.join(" <br> ");
-        text.classList.add("album-review", "hide");
-
-        let button = document.createElement("button");
-        button.innerText = "Open Review";
-        button.classList.add("album-review-button");
-        button.addEventListener('click', () => {
-            text.classList.toggle('hide');
-            if (text.classList.contains('hide')) {
-                button.textContent = 'Open Review';
-            } else {
-                button.textContent = 'Hide Review';
-            }
-        });
-        div.appendChild(button);
-
-        let spotify = document.createElement("button");
-        spotify.innerText = "Open in Spotify";
-        spotify.addEventListener('click', () => {
-        });
-        div.appendChild(spotify);
-
-        let user_rating = document.createElement("div");
-        user_rating.classList.add("user-review-data");
-        user_rating.innerText = album.user_review ?? "";
-        div.appendChild(user_rating);
-
-        let review = document.createElement("button");
-        review.innerText = "Rate";
-        review.addEventListener('click', () => {
-            let user_review = div.querySelector(".user-review");
-            if (user_review) {
-                user_review.remove();
-            } else {
-                let user_review = createReview((rating) => {
-                    album.user_review = rating;
-                    save();
-                    updateDOM(data);
-                });
-                div.appendChild(user_review);
-            }
-        });
-        div.appendChild(review);
-
-
-        div.appendChild(text);
-
-        allAlbums.appendChild(div);
-    }
-
-    for (let genre of data.genres) {
-        var op = new Option();
-        op.text = genre;
-        op.value = genre;
-        genre_select.options.add(op);
-    }
-    genre_select.value = data.opts.genre;
-    return parent;
+        albums.push([`div.album-card`, { id: album.number},
+            ["h1.album-title", album.title],
+            ["h2.album-artist", album.artist],
+            ["h3.album-genre", album.genre],
+            ["div", `No: ${album.number}`],
+            ["div.user-review-data", album.user_review ?? ""],
+            ["button.album-review-button", {
+                onclick: (e) => {
+                    let open = e.target.innerText == "Open Review";
+                    e.target.innerText = open ? "Hide Review" : "Open Review";
+                    e.target.parentElement.getElementsByClassName("album-review")[0].classList.toggle("hide");
+                }
+            }, "Open Review"],
+            ["button", "Open in Spotify"],
+            ["button", {
+                onclick: (e) => {
+                    let parent = e.target.parentElement;
+                    let user_review = parent.querySelector(".user-review");
+                    if (user_review) {
+                        user_review.remove();
+                    } else {
+                        let user_review = createReview((rating) => {
+                            let user_review = parent.querySelector(".user-review");
+                            user_review.remove();
+                            album.user_review = rating;
+                            save();
+                            updateDOM(data);
+                        });
+                        parent.appendChild(user_review);
+                    }
+                }
+            }, "Rate"],
+            ["div.album-review.hide", album.text.map((t) => ["p", t])],
+        ]);
+    };
+    RV.render(document.body, [
+        ["button.inline", {
+            onclick: () => {
+                data.opts.filter_reviews = !data.opts.filter_reviews;
+                updateDOM(data);
+            },
+        }, (data.opts.filter_reviews ? "Show" : "Hide") + " Reviewed Albums"],
+        ["button.inline", {
+            onclick: () => {
+                shuffle(data.albums);
+                updateDOM(data);
+            },
+        }, "Shuffle"],
+        ["select.inline", {
+            onchange: (e) => {
+                data.opts.genre = e.target.value;
+                updateDOM(data);
+            },
+        }, data.genres.map((g) => ["option", g])],
+        ["button.inline", {
+            onclick: () => {
+                data.albums.sort((a, b) => a.number - b.number);
+                data.opts = make_opts();
+                updateDOM(data);
+            },
+        }, "Reset"],
+        ["div", albums]
+    ]);
 }
 
 function createReview(callback) {
@@ -283,5 +226,5 @@ if ((!data) || ((data.version ?? 0) != version)) {
     console.log("load" + data.version);
     load_md();
 } else {
-    document.body.appendChild(dataToHtml(data));
+    dataToHtml(data);
 }
