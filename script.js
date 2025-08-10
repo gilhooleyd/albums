@@ -15,10 +15,13 @@ function make_opts() {
     };
 };
 
+let version = 1;
 function make_data() {
     return {
         opts: make_opts(),
         albums: [],
+        genres: new Set(),
+        version: version,
     }
 };
 
@@ -89,6 +92,7 @@ function parseText(text) {
             album.label = line.split(": ")[1];
         } else if (line.startsWith("genre:")) {
             album.genre = line.split(": ")[1];
+            data.genres.add(album.genre);
         } else {
             album.text.push(line);
         }
@@ -96,6 +100,7 @@ function parseText(text) {
     }
     data.albums.push(album);
     data.albums = data.albums.reverse();
+    data.genres = Array.from(data.genres).sort();
     return data;
 }
 
@@ -104,6 +109,7 @@ function dataToHtml(data) {
 
     let button = document.createElement("button");
     button.innerText = data.opts.filter_reviews ? "Show Reviewed Albums" : "Hide Reviewed Albums";
+    button.classList.add("inline");
     button.addEventListener('click', () => {
         data.opts.filter_reviews = !data.opts.filter_reviews;
         updateDOM(data);
@@ -111,15 +117,15 @@ function dataToHtml(data) {
     parent.appendChild(button);
 
     let genre_select = document.createElement("select");
+    genre_select.classList.add("inline");
     genre_select.addEventListener('change', function(event) {
-        console.log(event.target.value);
         data.opts.genre = event.target.value;
         updateDOM(data);
     });
-    let genres = new Set();
     parent.appendChild(genre_select);
 
     button = document.createElement("button");
+    button.classList.add("inline");
     button.innerText = "Shuffle"
     button.addEventListener('click', () => {
         shuffle(data.albums);
@@ -128,16 +134,19 @@ function dataToHtml(data) {
     parent.appendChild(button);
 
     button = document.createElement("button");
-    button.innerText = "Sort"
+    button.classList.add("inline");
+    button.innerText = "Reset"
     button.addEventListener('click', () => {
         data.albums.sort((a, b) => a.number - b.number);
+        data.opts = make_opts();
         updateDOM(data);
     });
     parent.appendChild(button);
 
-    parent.classList.add("all-albums");
+    let allAlbums = document.createElement("div");
+    allAlbums.classList.add("all-albums");
+    parent.appendChild(allAlbums);
     for (let album of data.albums) {
-        genres.add(album.genre);
         if (data.opts.filter_reviews && album.user_review) {
             continue;
         }
@@ -213,14 +222,16 @@ function dataToHtml(data) {
 
         div.appendChild(text);
 
-        parent.appendChild(div);
+        allAlbums.appendChild(div);
     }
 
-    for (let genre of genres) {
+    for (let genre of data.genres) {
         var op = new Option();
         op.text = genre;
+        op.value = genre;
         genre_select.options.add(op);
     }
+    genre_select.value = data.opts.genre;
     return parent;
 }
 
@@ -268,7 +279,8 @@ function createReview(callback) {
 
 
 data = load();
-if (!data) {
+if ((!data) || ((data.version ?? 0) != version)) {
+    console.log("load" + data.version);
     load_md();
 } else {
     document.body.appendChild(dataToHtml(data));
